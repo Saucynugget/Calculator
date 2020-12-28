@@ -50,15 +50,16 @@ body {
     grid-column: 1 / span 4;
     grid-row: 1 / span 2;
     border: solid;
+    overflow: auto;
 }
 
-.display-text{
+#display-text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     padding: 20px 20px;
 }
 
-.display-results{
+#display-results{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     padding: 20px 20px;
