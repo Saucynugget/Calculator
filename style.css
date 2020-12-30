@@ -27,7 +27,9 @@ body {
                       
 }
 
-
+#clearBtn {
+    grid-column: 1 / span 2;
+}
 
 
 .calc-button {
@@ -36,7 +38,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(62, 62, 255);
-    border-radius: 5px;   
+    border-radius: 5px;  
+    white-space: pre; 
 }
 
 .calc-button:hover{
@@ -57,6 +60,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     padding: 20px 20px;
+    white-space: pre;
 }
 
 #display-results{
@@ -69,6 +73,7 @@ body {
 
 .number-btn {
     color: black;
+    white-space: pre;
 }
 
 #backspace{
