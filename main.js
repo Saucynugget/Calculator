@@ -52,7 +52,7 @@ function displayOperator(){
         let result = 0;
         let isFirst = true;
 
-        for(i = 0; i < equationArr.length + 10; i++){
+    for(i = 0; i < equationArr.length + 10; i++){
         if(isNaN(parseFloat(equationArr[0])) == false && isFirst == true){
             let firstNumber = parseFloat(equationArr.shift());
             let secondNumber = parseFloat(equationArr[1]);
@@ -93,10 +93,11 @@ function displayOperator(){
             
             equationArr.splice(0, 1);
             
-        }
-
+        } 
+    
             
         lowerDisplay.innerText = `${+result.toFixed(2)}` 
+        
         if(result === Infinity){
             lowerDisplay.innerText = "U wot mate"
         }  
@@ -149,6 +150,7 @@ negativeButton.addEventListener("click", ()=>{
             isNegative = 1;
     }
 });
+
 
 populateDisplay();
 displayOperator();
